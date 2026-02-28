@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\servicesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\servicesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\sistemausuarios.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\contex\\sistemausuariosdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\contex\\sistemausuariosdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\sistemas api\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Usuario.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Modelo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Usuario.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Modelo\\Usuario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T21:12:50.232Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ServicesUsuario.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\ServicesUsuario.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ServicesUsuario.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\ServicesUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T21:38:19.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Program.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:05:51.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:56:21.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SistemaUsuarios.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+              "RelativeToolTip": "SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-20T21:11:38.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:03:31.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\Response.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\Response.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\Response.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\Response.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:08:37.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SistemaUsuariosDbContex.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T02:24:06.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\appsettings.json",
+              "RelativeToolTip": "SistemaUsuarios.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T01:26:22.622Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
