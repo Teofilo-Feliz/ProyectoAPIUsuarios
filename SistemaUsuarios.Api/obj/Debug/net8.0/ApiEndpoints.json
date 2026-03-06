@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "SistemaUsuarios.Api.Controllers.UsuariosController",
+    "Method": "RefrescarToken",
+    "RelativePath": "api/Usuarios/ActualizarToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SistemaUsuarios.Api.DTO.RefreshTokenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaUsuarios.Api.DTO.Response\u00601[[SistemaUsuarios.Api.Modelo.Usuario, SistemaUsuarios.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaUsuarios.Api.Controllers.UsuariosController",
     "Method": "ActualizarUsuario",
     "RelativePath": "api/Usuarios/actualizarUsuario/{id}",
     "HttpMethod": "PUT",
@@ -73,6 +99,32 @@
     "ReturnTypes": [
       {
         "Type": "SistemaUsuarios.Api.DTO.Response\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaUsuarios.Api.Controllers.UsuariosController",
+    "Method": "LogueoDeUsuario",
+    "RelativePath": "api/Usuarios/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "SistemaUsuarios.Api.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaUsuarios.Api.DTO.Response\u00601[[SistemaUsuarios.Api.Modelo.Usuario, SistemaUsuarios.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

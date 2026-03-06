@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SistemaUsuarios.Api.DTO;
+using SistemaUsuarios.Api.Helpers;
 using SistemaUsuarios.Api.Modelo;
 using SistemaUsuarios.Api.Servicios;
 
@@ -11,9 +12,12 @@ namespace SistemaUsuarios.Api.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuario _usuario;
-        public UsuariosController(IUsuario usuario)
+        private readonly JwtService _jwtService;
+
+        public UsuariosController(IUsuario usuario, JwtService jwtService)
         {
             _usuario = usuario;
+            _jwtService = jwtService;
 
         }
         // GET api/usuarios
@@ -63,8 +67,35 @@ namespace SistemaUsuarios.Api.Controllers
             return Ok(response);
 
 
+        }
 
+        [HttpPost("login")]
+        public async Task<ActionResult<Response<Usuario>>> LogueoDeUsuario([FromBody] LoginDTO login)
+        {
+            var response = await _usuario.LogueoDeUsuario(login.Username, login.Password);
 
+            if (!response.Successful)
+                return Unauthorized(response);
+
+            var token = _jwtService.GenerateToken(response.SingleData!);
+            response.SingleData!.Token = token;
+
+            return Ok(response);
+        }
+
+        [HttpPost("ActualizarToken")]
+        public async Task<ActionResult<Response<Usuario>>> RefrescarToken([FromBody] RefreshTokenDTO request)
+        {
+            var response = await _usuario.RefrescarToken(request.Token);
+
+            if (!response.Successful)
+                return Unauthorized(response);
+
+            var newToken = _jwtService.GenerateToken(response.SingleData!);
+
+            response.SingleData!.Token = newToken;
+
+            return Ok(response);
         }
     }
 }

@@ -11,6 +11,11 @@ namespace SistemaUsuarios.Api.Servicios
         Task<Response<String>> AgregarUsuario(Usuario usuario);
         Task<Response<String>> ActualizarUsuario(int Id, Usuario usuario);
         Task<Response<String>> EliminarUsuario(int Id);
+        Task<Response<Usuario>> LogueoDeUsuario(string username, string password);
+        Task<Response<Usuario>> RefrescarToken(string token);
+
+
+
 
 
     }

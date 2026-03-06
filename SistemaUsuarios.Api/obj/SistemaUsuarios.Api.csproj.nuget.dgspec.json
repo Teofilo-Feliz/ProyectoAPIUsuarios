@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj": {}
+    "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj": {
+    "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+        "projectUniqueName": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
         "projectName": "SistemaUsuarios.Api",
-        "projectPath": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
-        "packagesPath": "C:\\Users\\Thinkpad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Sistemas API\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\obj\\",
+        "projectPath": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+        "packagesPath": "C:\\Users\\tfeliz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Thinkpad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tfeliz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +25,7 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.24, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -87,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
