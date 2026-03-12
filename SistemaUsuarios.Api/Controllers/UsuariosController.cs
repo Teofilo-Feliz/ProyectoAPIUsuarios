@@ -4,6 +4,7 @@ using SistemaUsuarios.Api.DTO;
 using SistemaUsuarios.Api.Helpers;
 using SistemaUsuarios.Api.Modelo;
 using SistemaUsuarios.Api.Servicios;
+using System.Reflection.Metadata.Ecma335;
 
 namespace SistemaUsuarios.Api.Controllers
 {
@@ -23,38 +24,53 @@ namespace SistemaUsuarios.Api.Controllers
         // GET api/usuarios
         [HttpGet("obtenerTodosLosUsuarios")]
         public async Task<ActionResult<Response<List<Usuario>>>> ObtenerUsuarios()
-            => Ok(await _usuario.ObtenerUsuario());
+        {
+           
+            var response = await _usuario.ObtenerUsuario();
+    
+                if (!response.Successful)
+                    return NotFound(response);
+
+            return Ok(response.DataList);               
+            
+        }
 
 
         // GET api/usuarios/Id
         [HttpGet("obtenerUsuariosPorId{id}")]
         public async Task<ActionResult<Response<Usuario>>> ObtenerUsuario(int id)
-            => Ok(await _usuario.ObtenerUsuario(id));
+        {
+             var response = await _usuario.ObtenerUsuario(id);
+            if (!response.Successful)
+                return NotFound(response);
+            return Ok(response.SingleData);
+        }
+          
 
 
         // POST api/usuarios
         [HttpPost("agregarUsuarios")]
-        public async Task<ActionResult<Response<string>>> AgregarUsuario(Usuario usuario)
+        public async Task<ActionResult<Response<string>>> AgregarUsuario(AgregarUsuariosDTO usuario)
         {
             var response = await _usuario.AgregarUsuario(usuario);
 
             if (!response.Successful)
                 return Conflict(response);
 
-            return Ok(response);
+            return Ok(response.SingleData);
         }
 
 
         // PUT api/usuarios/1
         [HttpPut("actualizarUsuario/{id}")]
-        public async Task<ActionResult<Response<string>>> ActualizarUsuario(int id, Usuario usuario)
+        public async Task<ActionResult<Response<string>>> ActualizarUsuario(int id, ActualizarUsuarioDTO dto)
         {
-            var response = await _usuario.ActualizarUsuario(id, usuario);
+            var response = await _usuario.ActualizarUsuario(id, dto);
 
             if (!response.Successful)
                 return BadRequest(response);
 
-            return Ok(response);
+            return Ok(response.DataList);
         }
 
         // DELETE api/usuarios/Id
@@ -77,7 +93,7 @@ namespace SistemaUsuarios.Api.Controllers
             if (!response.Successful)
                 return Unauthorized(response);
 
-            var token = _jwtService.GenerateToken(response.SingleData!);
+            var token = _jwtService.GenerateToken(response.SingleData);
             response.SingleData!.Token = token;
 
             return Ok(response);

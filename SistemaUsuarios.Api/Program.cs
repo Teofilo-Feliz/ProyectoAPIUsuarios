@@ -13,12 +13,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<SistemaUsuariosDbContex>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IUsuario, ServicesUsuario>();
+builder.Services.AddScoped<IUsuario, UsuarioServices>();
 builder .Services.AddScoped<JwtService>();
 builder.Services.AddScoped<TokenValidator>();
 

@@ -39,8 +39,8 @@
         "IsRequired": true
       },
       {
-        "Name": "usuario",
-        "Type": "SistemaUsuarios.Api.Modelo.Usuario",
+        "Name": "dto",
+        "Type": "SistemaUsuarios.Api.DTO.ActualizarUsuarioDTO",
         "IsRequired": true
       }
     ],
@@ -66,7 +66,7 @@
     "Parameters": [
       {
         "Name": "usuario",
-        "Type": "SistemaUsuarios.Api.Modelo.Usuario",
+        "Type": "SistemaUsuarios.Api.DTO.AgregarUsuariosDTO",
         "IsRequired": true
       }
     ],

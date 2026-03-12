@@ -6,10 +6,10 @@ namespace SistemaUsuarios.Api.Servicios
     public interface IUsuario
     {
 
-        Task<Response<Usuario>> ObtenerUsuario();
-        Task<Response<Usuario>> ObtenerUsuario(int Id);
-        Task<Response<String>> AgregarUsuario(Usuario usuario);
-        Task<Response<String>> ActualizarUsuario(int Id, Usuario usuario);
+        Task<Response<UsuarioDTO>> ObtenerUsuario();
+        Task<Response<UsuarioDTO>> ObtenerUsuario(int Id);
+        Task<Response<AgregarUsuariosDTO>> AgregarUsuario(AgregarUsuariosDTO usuario);
+        Task<Response<ActualizarUsuarioDTO>> ActualizarUsuario(int Id, ActualizarUsuarioDTO dto);
         Task<Response<String>> EliminarUsuario(int Id);
         Task<Response<Usuario>> LogueoDeUsuario(string username, string password);
         Task<Response<Usuario>> RefrescarToken(string token);

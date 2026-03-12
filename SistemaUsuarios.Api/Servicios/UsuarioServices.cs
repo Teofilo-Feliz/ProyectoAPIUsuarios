@@ -7,24 +7,33 @@ using System.Security.Claims;
 
 namespace SistemaUsuarios.Api.Servicios
 {
-    public class ServicesUsuario : IUsuario
+    public class UsuarioServices : IUsuario
     {
         private readonly SistemaUsuariosDbContex _context;
         private readonly TokenValidator _tokenValidator;
-        public ServicesUsuario(SistemaUsuariosDbContex context, TokenValidator tokenValidator)
+        public UsuarioServices(SistemaUsuariosDbContex context, TokenValidator tokenValidator)
         {
             _context = context;
             _tokenValidator = tokenValidator;
         }
 
-        public async Task<Response<Usuario>> ObtenerUsuario()
+        public async Task<Response<UsuarioDTO>> ObtenerUsuario()
         {
-            var response = new Response<Usuario>();
+            var response = new Response<UsuarioDTO>();
             try
             {
-                var res = await _context.usuarios.ToListAsync();
+                var usuarios = await _context.usuarios
+                    .Select(u => new UsuarioDTO
+                    {
+                        Id = u.Id,
+                        Nombre = u.Nombre,
+                        Correo = u.Correo,
+                        FechaNacimiento = u.FechaNacimiento
+                    })
+                    .ToListAsync();
+
                 response.Successful = true;
-                response.DataList = res;
+                response.DataList = usuarios.AsEnumerable();
                 response.Message = "Usuarios obtenidos exitosamente.";
 
             }
@@ -32,24 +41,32 @@ namespace SistemaUsuarios.Api.Servicios
             {
                 response.Successful = false;
                 response.Errors.Add(ex.Message);
-
-
             }
+
             return response;
         }
 
-        public async Task<Response<Usuario>> ObtenerUsuario(int id)
+        public async Task<Response<UsuarioDTO>> ObtenerUsuario(int id)
         {
-            var response = new Response<Usuario>();
+            var response = new Response<UsuarioDTO>();
             try
             {
                 var usuario = await _context.usuarios.FirstOrDefaultAsync(u => u.Id == id);
+                var usuarios = await _context.usuarios
+                    .Select(u => new UsuarioDTO
+                    {
+                        Id = u.Id,
+                        Nombre = u.Nombre,
+                        Correo = u.Correo,
+                        FechaNacimiento = u.FechaNacimiento
+                    })
+                    .ToListAsync();
 
                 if (usuario != null)
                 {
                     response.Successful = true;
                     response.Message = "Usuario obtenido exitosamente.";
-                    response.SingleData = usuario;
+                    response.SingleData = usuarios.AsEnumerable().FirstOrDefault(u => u.Id == id)!;
                 }
                 else
                 {
@@ -67,28 +84,49 @@ namespace SistemaUsuarios.Api.Servicios
             return response;
         }
 
-        public async Task<Response<string>> AgregarUsuario(Usuario usuario)
+        public async Task<Response<AgregarUsuariosDTO>> AgregarUsuario(AgregarUsuariosDTO dto)
         {
-            var response = new Response<string>();
+            var response = new Response<AgregarUsuariosDTO>();
+
 
             try
             {
                 var existeCorreo = await _context.usuarios
-                    .AnyAsync(u => u.Correo == usuario.Correo);
-
-                if (existeCorreo)
+                    .AnyAsync(u => u.Correo == dto.Correo);
+                var existeUsername = await _context.usuarios
+                    .AnyAsync(u => u.Username == dto.Username);
+              
+                
+                if (existeCorreo )
                 {
                     response.Successful = false;
                     response.Message = "El correo ya está registrado.";
                     return response;
+
+                }
+                if (existeUsername)
+                {
+                    response.Successful = false;
+                        response.Message = "El usuario ya esta registrado";
+                    return response;
+
                 }
 
-                usuario.Password = HashHelper.HashPassword(usuario.Password);
-                _context.usuarios.Add(usuario);
+                var usuarios = new Usuario
+                {
+                    Nombre = dto.Nombre,
+                    Correo = dto.Correo,
+                    FechaNacimiento = dto.FechaNacimiento,
+                    Username = dto.Username,
+                    Password = HashHelper.HashPassword(dto.Password)
+                };
+
+                _context.usuarios.Add(usuarios);
                 await _context.SaveChangesAsync();
 
                 response.Successful = true;
                 response.Message = "Usuario agregado exitosamente.";
+                response.SingleData = dto;
             }
             catch (Exception ex)
             {
@@ -102,9 +140,9 @@ namespace SistemaUsuarios.Api.Servicios
 
 
 
-        public async Task<Response<string>> ActualizarUsuario(int id, Usuario usuario)
+        public async Task<Response<ActualizarUsuarioDTO>> ActualizarUsuario(int id,ActualizarUsuarioDTO dto )
         {
-            var response = new Response<string>();
+            var response = new Response<ActualizarUsuarioDTO>();
 
             try
             {
@@ -121,9 +159,18 @@ namespace SistemaUsuarios.Api.Servicios
                 }
 
 
-                usuarioDb.Nombre = usuario.Nombre;
-                usuarioDb.Correo = usuario.Correo;
-                usuarioDb.FechaNacimiento = usuario.FechaNacimiento;
+                usuarioDb.Nombre = dto.Nombre;
+                usuarioDb.Correo = dto.Correo;
+                usuarioDb.FechaNacimiento = dto.FechaNacimiento;
+                
+                var usuarios = new Usuario
+                {
+                    Nombre = dto.Nombre,
+                    Correo = dto.Correo,
+                    FechaNacimiento = dto.FechaNacimiento,                    
+                    Password = HashHelper.HashPassword(dto.Password)
+                };
+
 
                 await _context.SaveChangesAsync();
 
@@ -194,7 +241,7 @@ namespace SistemaUsuarios.Api.Servicios
                 }
 
                 response.Successful = true;
-                response.SingleData = usuario;
+                response.SingleData = response.SingleData;
                 response.Message = "Usuario autenticado exitosamente.";
             }
             catch (Exception)
