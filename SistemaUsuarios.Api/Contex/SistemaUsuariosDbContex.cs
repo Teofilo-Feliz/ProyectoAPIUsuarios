@@ -57,9 +57,11 @@ namespace SistemaUsuarios.Api.Contex
                 .IsRequired();
 
                 entity.Property(p => p.Precio)
+                .HasPrecision(18, 2)
                 .IsRequired();
 
                 entity.Property(p => p.Stock)
+                .HasPrecision(18, 2)
                 .IsRequired();
 
                 entity.HasOne(p => p.Categoria)

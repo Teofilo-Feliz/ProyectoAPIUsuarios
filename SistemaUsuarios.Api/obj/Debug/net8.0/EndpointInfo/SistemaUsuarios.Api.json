@@ -5,6 +5,566 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Categorias/obtenerTodasLasCategorias": {
+      "get": {
+        "tags": [
+          "Categorias"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerCategoriasDTOListResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerCategoriasDTOListResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerCategoriasDTOListResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Categorias/obtenerCategoriaPorId{id}": {
+      "get": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerCategoriasDTOResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerCategoriasDTOResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerCategoriasDTOResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Categorias/agregarCategoria": {
+      "post": {
+        "tags": [
+          "Categorias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarCategoriaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarCategoriaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarCategoriaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Categorias/actualizarCategoria{id}": {
+      "put": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarCategoriaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarCategoriaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarCategoriaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Categorias/eliminarCategoria{id}": {
+      "delete": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Productos/obtenerProductos": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerProductosDTOListResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerProductosDTOListResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerProductosDTOListResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Productos/obtenerProductosPorId": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerProductosDTOResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerProductosDTOResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObtenerProductosDTOResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Productos/agregarProductos": {
+      "post": {
+        "tags": [
+          "Productos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProductosDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProductosDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProductosDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgregarProductosDTOResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgregarProductosDTOResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgregarProductosDTOResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Productos/actualizarProductos": {
+      "put": {
+        "tags": [
+          "Productos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarProductosDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarProductosDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarProductosDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActualizarProductosDTOResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActualizarProductosDTOResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActualizarProductosDTOResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Productos/eliminarProducto": {
+      "delete": {
+        "tags": [
+          "Productos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EliminarProductosDTOResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EliminarProductosDTOResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EliminarProductosDTOResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Provedor/obtenerTodosLosProvedores": {
+      "get": {
+        "tags": [
+          "Provedor"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Provedor/obtenerProvedorPorId{id}": {
+      "get": {
+        "tags": [
+          "Provedor"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Provedor/agregarProvedor": {
+      "post": {
+        "tags": [
+          "Provedor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProvedorDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProvedorDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProvedorDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Provedor/actualizarProvedor{id}": {
+      "put": {
+        "tags": [
+          "Provedor"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProvedorDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProvedorDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgregarProvedorDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Provedor/eliminarProvedor{id}": {
+      "delete": {
+        "tags": [
+          "Provedor"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Usuarios/obtenerTodosLosUsuarios": {
       "get": {
         "tags": [
@@ -359,6 +919,70 @@
   },
   "components": {
     "schemas": {
+      "ActualizarProductosDTO": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "stock": {
+            "type": "number",
+            "format": "double"
+          },
+          "idCategoria": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idProvedor": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ActualizarProductosDTOResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ActualizarProductosDTO"
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "$ref": "#/components/schemas/ActualizarProductosDTO"
+          }
+        },
+        "additionalProperties": false
+      },
       "ActualizarUsuarioDTO": {
         "type": "object",
         "properties": {
@@ -375,6 +999,94 @@
             "format": "date-time"
           },
           "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AgregarCategoriaDTO": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AgregarProductosDTO": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "stock": {
+            "type": "number",
+            "format": "double"
+          },
+          "idCategoria": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idProvedor": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AgregarProductosDTOResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AgregarProductosDTO"
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "$ref": "#/components/schemas/AgregarProductosDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AgregarProvedorDTO": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "contacto": {
             "type": "string",
             "nullable": true
           }
@@ -407,6 +1119,54 @@
         },
         "additionalProperties": false
       },
+      "EliminarProductosDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EliminarProductosDTOResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EliminarProductosDTO"
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "$ref": "#/components/schemas/EliminarProductosDTO"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginDTO": {
         "type": "object",
         "properties": {
@@ -417,6 +1177,216 @@
           "password": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObtenerCategoriasDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObtenerCategoriasDTOListResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ObtenerCategoriasDTO"
+              }
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ObtenerCategoriasDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObtenerCategoriasDTOResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ObtenerCategoriasDTO"
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "$ref": "#/components/schemas/ObtenerCategoriasDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObtenerProductosDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "stock": {
+            "type": "number",
+            "format": "double"
+          },
+          "categoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "provedor": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObtenerProductosDTOListResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ObtenerProductosDTO"
+              }
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ObtenerProductosDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObtenerProductosDTOResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ObtenerProductosDTO"
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "$ref": "#/components/schemas/ObtenerProductosDTO"
           }
         },
         "additionalProperties": false

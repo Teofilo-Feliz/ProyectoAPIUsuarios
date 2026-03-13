@@ -241,7 +241,7 @@ namespace SistemaUsuarios.Api.Servicios
                 }
 
                 response.Successful = true;
-                response.SingleData = response.SingleData;
+                response.SingleData = usuario;
                 response.Message = "Usuario autenticado exitosamente.";
             }
             catch (Exception)

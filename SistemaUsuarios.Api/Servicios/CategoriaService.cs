@@ -21,7 +21,7 @@ namespace SistemaUsuarios.Api.Servicios
             var response = new Response<ObtenerCategoriasDTO>();
             try
             {
-                var categorias = await _context.usuarios
+                var categorias = await _context.categorias
                    .Select(u => new ObtenerCategoriasDTO
                    {
                        Id = u.Id,
@@ -51,7 +51,7 @@ namespace SistemaUsuarios.Api.Servicios
 
             try
             {
-                var categoria = await _context.usuarios
+                var categoria = await _context.categorias
                     .Where(u => u.Id == id)
                     .Select(u => new ObtenerCategoriasDTO
                     {
@@ -89,7 +89,7 @@ namespace SistemaUsuarios.Api.Servicios
 
             try
             {
-                var existeCategoria = await _context.usuarios
+                var existeCategoria = await _context.categorias
                     .AnyAsync(c => c.Nombre == categoria.Nombre);
 
                 if (existeCategoria)

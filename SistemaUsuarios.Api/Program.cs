@@ -19,6 +19,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUsuario, UsuarioServices>();
+builder.Services.AddScoped<ICategoria, CategoriaService>();
+builder.Services.AddScoped<IProvedor, ProvedorService>();
 builder .Services.AddScoped<JwtService>();
 builder.Services.AddScoped<TokenValidator>();
 

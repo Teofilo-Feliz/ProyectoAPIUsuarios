@@ -1,6 +1,185 @@
-﻿namespace SistemaUsuarios.Api.Servicios
+﻿using Microsoft.EntityFrameworkCore;
+using SistemaUsuarios.Api.Contex;
+using SistemaUsuarios.Api.DTO;
+using SistemaUsuarios.Api.Modelo;
+namespace SistemaUsuarios.Api.Servicios
 {
-    public class ProductoService
+    public class ProductoService : IProducto
     {
+        private readonly SistemaUsuariosDbContex _context;
+
+        public ProductoService(SistemaUsuariosDbContex context)
+        {
+            _context = context;
+        }
+
+        public async Task<Response<ObtenerProductosDTO>> ObtenerProductos()
+        {
+            var response = new Response<ObtenerProductosDTO>();
+
+            try
+            {
+                var productos = await _context.productos
+                    .Select(p => new ObtenerProductosDTO
+                    {
+                        Id = p.Id,
+                        Nombre = p.Nombre,
+                        Precio = p.Precio,
+                        Stock = p.Stock,
+                        Categoria = p.Categoria.Nombre,
+                        Provedor = p.Provedor.Nombre
+                    })
+                    .ToListAsync();
+
+                response.Successful = true;
+                response.DataList = productos;
+                response.Message = "Productos obtenidos correctamente";
+            }
+            catch (Exception ex)
+            {
+                response.Successful = false;
+                response.Errors.Add(ex.Message);
+            }
+
+            return response;
+        }
+
+        public async Task<Response<ObtenerProductosDTO>> ObtenerProductoId(int Id)
+        {
+            var response = new Response<ObtenerProductosDTO>();
+
+            try
+            {
+                var producto = await _context.productos
+                    .Where(p => p.Id == Id)
+                    .Select(p => new ObtenerProductosDTO
+                    {
+                        Id = p.Id,
+                        Nombre = p.Nombre,
+                        Precio = p.Precio,
+                        Stock = p.Stock,
+                        Categoria = p.Categoria.Nombre,
+                        Provedor = p.Provedor.Nombre
+                    })
+                    .FirstOrDefaultAsync();
+
+                if (producto == null)
+                {
+                    response.Successful = false;
+                    response.Message = "Producto no encontrado";
+                    return response;
+                }
+
+                response.Successful = true;
+                response.SingleData = producto;
+                response.Message = "Producto obtenido correctamente";
+            }
+            catch (Exception ex)
+            {
+                response.Successful = false;
+                response.Errors.Add(ex.Message);
+            }
+
+            return response;
+        }
+
+        public async Task<Response<AgregarProductosDTO>> AgregarProducto(AgregarProductosDTO producto)
+        {
+            var response = new Response<AgregarProductosDTO>();
+
+            try
+            {
+                var nuevoProducto = new Producto
+                {
+                    Nombre = producto.Nombre,
+                    Precio = producto.Precio,
+                    Stock = producto.Stock,
+                    IdCategoria = producto.IdCategoria,
+                    IdProvedor = producto.IdProvedor,
+                };
+
+                _context.productos.Add(nuevoProducto);
+
+                await _context.SaveChangesAsync();
+
+                response.Successful = true;
+                response.SingleData = producto;
+                response.Message = "Producto agregado correctamente";
+            }
+            catch (Exception ex)
+            {
+                response.Successful = false;
+                response.Errors.Add(ex.Message);
+            }
+
+            return response;
+        }
+
+        public async Task<Response<ActualizarProductosDTO>> ActualizarProducto(int Id, ActualizarProductosDTO dto)
+        {
+            var response = new Response<ActualizarProductosDTO>();
+
+            try
+            {
+                var producto = await _context.productos.FindAsync(Id);
+
+                if (producto == null)
+                {
+                    response.Successful = false;
+                    response.Message = "Producto no encontrado";
+                    return response;
+                }
+
+                producto.Nombre = dto.Nombre;
+                producto.Precio = dto.Precio;
+                producto.Stock = dto.Stock;
+                producto.IdCategoria = dto.IdCategoria;
+                producto.IdProvedor = dto.IdProvedor;
+
+                await _context.SaveChangesAsync();
+
+                response.Successful = true;
+                response.SingleData = dto;
+                response.Message = "Producto actualizado correctamente";
+            }
+            catch (Exception ex)
+            {
+                response.Successful = false;
+                response.Errors.Add(ex.Message);
+            }
+
+            return response;
+        }
+
+        public async Task<Response<EliminarProductosDTO>> EliminarProducto(int Id)
+        {
+            var response = new Response<EliminarProductosDTO>();
+
+            try
+            {
+                var producto = await _context.productos.FindAsync(Id);
+
+                if (producto == null)
+                {
+                    response.Successful = false;
+                    response.Message = "Producto no encontrado";
+                    return response;
+                }
+
+                _context.productos.Remove(producto);
+
+                await _context.SaveChangesAsync();
+
+                response.Successful = true;
+                response.Message = "Producto eliminado correctamente";
+            }
+            catch (Exception ex)
+            {
+                response.Successful = false;
+                response.Errors.Add(ex.Message);
+            }
+
+            return response;
+        }
     }
 }
