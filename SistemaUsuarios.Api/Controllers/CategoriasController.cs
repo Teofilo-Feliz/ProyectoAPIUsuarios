@@ -32,7 +32,7 @@ namespace SistemaUsuarios.Api.Controllers
         {
             var response = await _categoriaService.ObtenerCategoriaId(id);
             if (!response.Successful)
-                return NotFound(response);
+                return NotFound($"No existe categori coon ese {id}");
             return Ok(response.SingleData);
 
 

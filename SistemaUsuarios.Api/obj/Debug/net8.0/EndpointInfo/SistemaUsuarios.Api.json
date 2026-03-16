@@ -434,6 +434,35 @@
         }
       }
     },
+    "/api/Productos/estadisticasProductos": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EstadisticasDeProductosDTOResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EstadisticasDeProductosDTOResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EstadisticasDeProductosDTOResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Provedor/obtenerTodosLosProvedores": {
       "get": {
         "tags": [
@@ -1163,6 +1192,74 @@
           },
           "singleData": {
             "$ref": "#/components/schemas/EliminarProductosDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EstadisticasDeProductosDTO": {
+        "type": "object",
+        "properties": {
+          "productoPrecioMasAlto": {
+            "type": "string",
+            "nullable": true
+          },
+          "productoConElPrecioMasAlto": {
+            "type": "number",
+            "format": "double"
+          },
+          "productoPrecioMasbajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "productoConElPrecioMasBajo": {
+            "type": "number",
+            "format": "double"
+          },
+          "sumaTotalPrecioProductos": {
+            "type": "number",
+            "format": "double"
+          },
+          "precioPromedioDeProductos": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EstadisticasDeProductosDTOResponse": {
+        "type": "object",
+        "properties": {
+          "thereIsError": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "entityId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "successful": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dataList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EstadisticasDeProductosDTO"
+            },
+            "nullable": true
+          },
+          "singleData": {
+            "$ref": "#/components/schemas/EstadisticasDeProductosDTO"
           }
         },
         "additionalProperties": false

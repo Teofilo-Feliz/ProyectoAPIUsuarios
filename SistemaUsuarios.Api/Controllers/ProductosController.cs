@@ -77,6 +77,18 @@ namespace SistemaUsuarios.Api.Controllers
 
             return Ok(response);
         }
+
+
+        [HttpGet("estadisticasProductos")]
+        public async Task<ActionResult<Response<EstadisticasDeProductosDTO>>> ObtenerEstadisticas()
+        {
+            var response = await _producto.ObtenerEstadisticas();
+
+            if(!response.Successful)
+                return BadRequest(response);
+            return Ok(response.SingleData
+                );
+        }
     }
 }
 

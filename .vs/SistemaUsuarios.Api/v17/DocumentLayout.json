@@ -1,161 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\",
+  "WorkspaceRootPath": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\iproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\iproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\icategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\icategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\controllers\\provedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\provedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\agregarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\agregarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\obtenerproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\obtenerproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\obtenercategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\obtenercategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\agregarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\modelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\modelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\actualizarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\actualizarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\eliminarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\eliminarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\provedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\provedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\iprovedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\iprovedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\actualizarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\actualizarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\contex\\sistemausuariosdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\contex\\sistemausuariosdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\obtenerprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\obtenerprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\loguerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\loguerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\eliminarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\eliminarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\eliminarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\eliminarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\agregarusuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarusuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\dto\\actualizarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\actualizarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\estadisticasdeproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\estadisticasdeproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\iproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\iproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\contex\\sistemausuariosdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\contex\\sistemausuariosdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\provedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\provedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\eliminarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\eliminarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\obtenerproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\obtenerproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\eliminarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\eliminarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\agregarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\actualizarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\actualizarproductosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\icategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\icategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\controllers\\provedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\provedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\agregarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\obtenercategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\obtenercategoriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\agregarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\modelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\modelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\servicios\\iprovedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\servicios\\iprovedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\actualizarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\actualizarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\obtenerprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\obtenerprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\loguerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\loguerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\eliminarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\eliminarprovedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\agregarusuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\agregarusuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\dto\\actualizarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\dto\\actualizarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\modelo\\provedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\modelo\\provedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\modelo\\provedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\modelo\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\modelo\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\modelo\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\helpers\\tokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\helpers\\tokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\helpers\\tokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -169,6 +177,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\tfeliz\\desktop\\visual studio teofilo\\sistemausuarios.api\\sistemausuarios.api\\sistemausuarios.api\\migrations\\20260313131857_inicialnueva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\migrations\\20260313131857_inicialnueva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\sistemausuarios.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\sistemausuarios.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|c:\\users\\thinkpad\\onedrive\\desktop\\repositorio clonado\\sistemausuarios.api\\migrations\\20260313131857_inicialnueva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B302A74-EEDF-4AD1-B8FF-2304CCB48F9F}|SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj|solutionrelative:sistemausuarios.api\\migrations\\20260313131857_inicialnueva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -178,15 +192,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Usuario.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Modelo\\Usuario.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Usuario.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Modelo\\Usuario.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,116 +209,157 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T21:38:19.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\appsettings.json",
+              "RelativeToolTip": "SistemaUsuarios.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T01:26:22.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\IProducto.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\IProducto.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\IProducto.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\IProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:56:38.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T13:53:54.993Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:59:27.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBYAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T21:03:13.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\ProductoService.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\ProductoService.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\ProductoService.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\ProductoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAALEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T20:59:43.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ObtenerProductosDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T19:51:08.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AgregarProductosDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T19:54:46.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T13:53:54.993Z"
+              "WhenOpened": "2026-03-11T20:59:43.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProvedorController.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Title": "EstadisticasDeProductosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EstadisticasDeProductosDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\EstadisticasDeProductosDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EstadisticasDeProductosDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\EstadisticasDeProductosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T17:55:38.788Z"
+              "WhenOpened": "2026-03-14T17:53:43.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProducto.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IProducto.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\IProducto.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IProducto.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\IProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "SistemaUsuariosDbContex.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T20:56:38.177Z"
+              "WhenOpened": "2026-02-21T02:24:06.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICategoria.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "EliminarCategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T20:56:13.213Z"
+              "WhenOpened": "2026-03-12T21:35:39.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\Response.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\Response.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\Response.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\Response.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:08:37.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\IUsuario.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,70 +368,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ObtenerCategoriasDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "ProvedorService.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T20:08:53.136Z"
+              "WhenOpened": "2026-03-11T21:00:00.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AgregarCategoriaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T20:46:09.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Producto.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Modelo\\Producto.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Producto.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Modelo\\Producto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T15:41:57.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsuarioServices.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\UsuarioServices.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T21:38:19.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AgregarProvedorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T16:19:13.82Z"
+              "WhenOpened": "2026-03-11T21:30:05.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "ObtenerProductosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ObtenerProductosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T19:51:08.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EliminarProductosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T20:04:51.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AgregarProductosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\AgregarProductosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T19:54:46.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ActualizarProductosDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ActualizarProductosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ActualizarProductosDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ActualizarProductosDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ActualizarProductosDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ActualizarProductosDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ActualizarProductosDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -384,35 +444,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EliminarProductosDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\EliminarProductosDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T20:04:51.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProvedorService.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\ProvedorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T21:00:00.015Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Program.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:05:51.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProvedorController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Controllers\\ProvedorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T17:55:38.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\ICategoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:56:13.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ObtenerCategoriasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ObtenerCategoriasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T20:08:53.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AgregarCategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\AgregarCategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T20:46:09.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Producto.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Modelo\\Producto.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Producto.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\Modelo\\Producto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T15:41:57.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AgregarProvedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
+              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
+              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\AgregarProvedorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T16:19:13.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ActualizarProvedorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ActualizarProvedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ActualizarProvedorDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ActualizarProvedorDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ActualizarProvedorDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ActualizarProvedorDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ActualizarProvedorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -420,47 +541,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SistemaUsuariosDbContex.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Contex\\SistemaUsuariosDbContex.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAmwA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T02:24:06.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T21:30:05.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\Response.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\Response.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\Response.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\Response.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T02:08:37.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "IProvedor.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IProvedor.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\IProvedor.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\IProvedor.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\IProvedor.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Servicios\\IProvedor.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\IProvedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -468,11 +553,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "RefreshTokenDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\RefreshTokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\RefreshTokenDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\RefreshTokenDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\RefreshTokenDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\RefreshTokenDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\RefreshTokenDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -480,11 +565,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "ObtenerProvedorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ObtenerProvedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ObtenerProvedorDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ObtenerProvedorDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ObtenerProvedorDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ObtenerProvedorDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ObtenerProvedorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -492,11 +577,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "LoguerResponse.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\LoguerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\LoguerResponse.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\LoguerResponse.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\LoguerResponse.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\LoguerResponse.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\LoguerResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -504,11 +589,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\LoginDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -516,11 +601,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "EliminarProvedorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\EliminarProvedorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EliminarProvedorDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\EliminarProvedorDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\EliminarProvedorDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\EliminarProvedorDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\EliminarProvedorDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -528,23 +613,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EliminarCategoriaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\EliminarCategoriaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T21:35:39.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "AgregarUsuariosDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarUsuariosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarUsuariosDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\AgregarUsuariosDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\AgregarUsuariosDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\AgregarUsuariosDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\AgregarUsuariosDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -552,11 +625,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ActualizarUsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ActualizarUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ActualizarUsuarioDTO.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\DTO\\ActualizarUsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\DTO\\ActualizarUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\DTO\\ActualizarUsuarioDTO.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\DTO\\ActualizarUsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -564,23 +637,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Program.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T03:05:51.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Controllers\\UsuariosController.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAmwGIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -588,23 +649,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
-              "RelativeToolTip": "SistemaUsuarios.Api\\Servicios\\CategoriaService.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAmwLgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T20:59:27.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Provedor.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Provedor.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Provedor.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Modelo\\Provedor.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Provedor.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Provedor.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Modelo\\Provedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -612,11 +661,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Categoria.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Modelo\\Categoria.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Modelo\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Modelo\\Categoria.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Modelo\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -624,11 +673,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "TokenValidator.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Helpers\\TokenValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Helpers\\TokenValidator.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Helpers\\TokenValidator.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Helpers\\TokenValidator.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Helpers\\TokenValidator.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Helpers\\TokenValidator.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -636,11 +685,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Helpers\\JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Helpers\\JwtService.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Helpers\\JwtService.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Helpers\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Helpers\\JwtService.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Helpers\\JwtService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -648,11 +697,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "HashHelper.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Helpers\\HashHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Helpers\\HashHelper.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Helpers\\HashHelper.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Helpers\\HashHelper.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Helpers\\HashHelper.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Helpers\\HashHelper.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA1wBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -660,11 +709,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "20260313131857_InicialNueva.cs",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Migrations\\20260313131857_InicialNueva.cs",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Migrations\\20260313131857_InicialNueva.cs",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\Migrations\\20260313131857_InicialNueva.cs",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\Migrations\\20260313131857_InicialNueva.cs",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\Migrations\\20260313131857_InicialNueva.cs",
               "RelativeToolTip": "SistemaUsuarios.Api\\Migrations\\20260313131857_InicialNueva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -672,23 +721,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaUsuarios.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\appsettings.json",
-              "RelativeToolTip": "SistemaUsuarios.Api\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-21T01:26:22.622Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 40,
               "Title": "SistemaUsuarios.Api.csproj",
-              "DocumentMoniker": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
               "RelativeDocumentMoniker": "SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
-              "ToolTip": "C:\\Users\\tfeliz\\Desktop\\visual studio Teofilo\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
+              "ToolTip": "C:\\Users\\Thinkpad\\OneDrive\\Desktop\\Repositorio Clonado\\SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
               "RelativeToolTip": "SistemaUsuarios.Api\\SistemaUsuarios.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

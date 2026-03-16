@@ -213,6 +213,26 @@
   },
   {
     "ContainingType": "SistemaUsuarios.Api.Controllers.ProductosController",
+    "Method": "ObtenerEstadisticas",
+    "RelativePath": "api/Productos/estadisticasProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaUsuarios.Api.DTO.Response\u00601[[SistemaUsuarios.Api.DTO.EstadisticasDeProductosDTO, SistemaUsuarios.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaUsuarios.Api.Controllers.ProductosController",
     "Method": "ObtenerProductos",
     "RelativePath": "api/Productos/obtenerProductos",
     "HttpMethod": "GET",
