@@ -181,5 +181,50 @@ namespace SistemaUsuarios.Api.Servicios
 
             return response;
         }
+
+        public async Task<Response<EstadisticasDeProductosDTO>> ObtenerEstadisticas()
+        {
+            var response = new Response<EstadisticasDeProductosDTO>();
+
+            try
+            {
+                var productoMasCaro = await _context.productos
+                    .OrderByDescending(p => p.Precio)
+                    .FirstOrDefaultAsync();
+
+                var productoMasBarato = await _context.productos
+                    .OrderBy(p => p.Precio)
+                    .FirstOrDefaultAsync();
+
+                var suma = await _context.productos.SumAsync(p => p.Precio);
+
+                var promedio = await _context.productos.AverageAsync(p => p.Precio);
+
+                response.Successful = true;
+
+                response.SingleData = new EstadisticasDeProductosDTO
+                {
+                    ProductoPrecioMasAlto = productoMasCaro!.Nombre,
+                    ProductoConElPrecioMasAlto = productoMasCaro.Precio,
+
+                    ProductoPrecioMasbajo = productoMasBarato!.Nombre,
+                    ProductoConElPrecioMasBajo = productoMasBarato.Precio,
+
+                    SumaTotalPrecioProductos = suma,
+                    PrecioPromedioDeProductos = promedio
+                };
+            }
+            catch (Exception ex)
+            {
+                response.Successful = false;
+                response.Errors.Add(ex.Message);
+            }
+
+            return response;
+        }
+
     }
+
+    
+    
 }
