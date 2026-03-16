@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaUsuarios.Api.DTO;
-using SistemaUsuarios.Api.Helpers;
-using SistemaUsuarios.Api.Modelo;
 using SistemaUsuarios.Api.Servicios;
 
 
@@ -78,17 +76,63 @@ namespace SistemaUsuarios.Api.Controllers
             return Ok(response);
         }
 
-
+        // Estadisticas Producto
         [HttpGet("estadisticasProductos")]
         public async Task<ActionResult<Response<EstadisticasDeProductosDTO>>> ObtenerEstadisticas()
         {
             var response = await _producto.ObtenerEstadisticas();
 
-            if(!response.Successful)
+            if (!response.Successful)
                 return BadRequest(response);
             return Ok(response.SingleData
                 );
         }
+
+        // Obtener Productos por IdCategoria
+
+        [HttpGet("obtenerProductosPorIdCategoria")]
+       public async Task<ActionResult<Response<ObtenerProductosDTO>>> ObtenerProductosPorCategoria(int IdCategoria)
+        {
+            var response = await _producto.ObtenerProductosPorCategoria(IdCategoria);
+
+                if (!response.Successful)
+                return BadRequest("No se obtuvieron productos con este Id Categoria");
+            return Ok(response.DataList
+                );
+        }
+
+        // Obtener Productos por IdProvedor
+        [HttpGet("obtenerProductosPorIdProvedor")]
+        public async Task<ActionResult<Response<ObtenerProductosDTO>>> ObtenerProductosPorProvedores(int IdProvedor)
+        {
+            var response = await _producto.ObtenerProductosPorPovedores(IdProvedor);
+
+            if (!response.Successful)
+                return BadRequest("No se obtuvieron productos con este Id Categoria");
+            return Ok(response.DataList
+                );
+
+        }
+
+        // Obtener la Cantidad de los productos registrados
+        [HttpGet("cantidadTotalDeProductosRegistrados")]
+        public async Task<ActionResult<Response<int>>> CantidadDeProductos()
+        {
+            var response = await _producto.CantidadDeProductos();
+
+            if (!response.Successful)
+                return BadRequest("No se obtuvo la cantidad de los productos");
+
+            return Ok(new
+            {
+                mensaje = response.Message,
+                cantidad = response.SingleData
+            });
+
+        }
+
+
+
     }
 }
 

@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaUsuarios.Api.DTO;
-using SistemaUsuarios.Api.Helpers;
-using SistemaUsuarios.Api.Modelo;
 using SistemaUsuarios.Api.Servicios;
 
 namespace SistemaUsuarios.Api.Controllers
@@ -17,6 +15,7 @@ namespace SistemaUsuarios.Api.Controllers
         }
 
 
+        // Obtener Provedores
         [HttpGet("obtenerTodosLosProvedores")]
         public async Task<ActionResult> ObtenerProvedores()
         {
@@ -27,6 +26,7 @@ namespace SistemaUsuarios.Api.Controllers
             return Ok(response.DataList);
         }
 
+        // Obtener Provedores por Id 
         [HttpGet("obtenerProvedorPorId{id}")]
         public async Task<ActionResult> ObtenerProvedor(int id)
         {
@@ -39,6 +39,7 @@ namespace SistemaUsuarios.Api.Controllers
         }
 
 
+        //Agregar Provedores 
         [HttpPost("agregarProvedor")]
         public async Task<ActionResult> AgregarProvedor(AgregarProvedorDTO provedor)
         {
@@ -48,6 +49,8 @@ namespace SistemaUsuarios.Api.Controllers
 
             return Ok(response.SingleData);
         }
+
+        // Actualizar Provedores 
         [HttpPut("actualizarProvedor{id}")]
         public async Task<ActionResult> ActualizarProvedor(int id, AgregarProvedorDTO dto)
         {
@@ -59,6 +62,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         }
 
+        // Eliminar Provedores 
         [HttpDelete("eliminarProvedor{id}")]
         public async Task<ActionResult> EliminarProvedor(int id)
         {

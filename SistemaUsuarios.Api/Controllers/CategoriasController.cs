@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaUsuarios.Api.DTO;
-using SistemaUsuarios.Api.Helpers;
-using SistemaUsuarios.Api.Modelo;
 using SistemaUsuarios.Api.Servicios;
 namespace SistemaUsuarios.Api.Controllers
 {

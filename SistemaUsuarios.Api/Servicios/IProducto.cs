@@ -11,6 +11,10 @@ namespace SistemaUsuarios.Api.Servicios
         Task<Response<EliminarProductosDTO>> EliminarProducto(int Id);
 
         Task<Response<EstadisticasDeProductosDTO>> ObtenerEstadisticas();
+        Task<Response<ObtenerProductosDTO>> ObtenerProductosPorCategoria(int idCategoria);
+        Task<Response<ObtenerProductosDTO>> ObtenerProductosPorPovedores(int idprovedor);
+        Task<Response<int>> CantidadDeProductos();
+
 
 
     }

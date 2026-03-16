@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SistemaUsuarios.Api.DTO;
 using SistemaUsuarios.Api.Helpers;
 using SistemaUsuarios.Api.Modelo;
 using SistemaUsuarios.Api.Servicios;
-using System.Reflection.Metadata.Ecma335;
+
 
 namespace SistemaUsuarios.Api.Controllers
 {
@@ -85,6 +84,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         }
 
+        // Loguin para el usuario 
         [HttpPost("login")]
         public async Task<ActionResult<Response<Usuario>>> LogueoDeUsuario([FromBody] LoginDTO login)
         {
@@ -99,6 +99,7 @@ namespace SistemaUsuarios.Api.Controllers
             return Ok(response);
         }
 
+        // Actualizar Token 
         [HttpPost("ActualizarToken")]
         public async Task<ActionResult<Response<Usuario>>> RefrescarToken([FromBody] RefreshTokenDTO request)
         {
