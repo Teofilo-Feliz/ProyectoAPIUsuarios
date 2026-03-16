@@ -8,7 +8,7 @@ namespace SistemaUsuarios.Api.Servicios
         Task<Response<ObtenerProvedorDTO>> ObtenerProvedorId(int Id);
         Task<Response<AgregarProvedorDTO>> AgregarProvedor(AgregarProvedorDTO provedor);
         Task<Response<ActualizarProvedorDTO>> ActualizarProvedor( int Id, AgregarProvedorDTO dto);
-        Task<Response<EliminarProvedorDTO>> EliminarProvedor(int Id);
+        Task<Response<string>> EliminarProvedor(int Id);
 
 
 

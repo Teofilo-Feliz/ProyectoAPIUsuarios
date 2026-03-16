@@ -78,8 +78,8 @@ namespace SistemaUsuarios.Api.Controllers
         {
             var response = await _usuario.EliminarUsuario(id);
             if (!response.Successful)
-                return NotFound(response);
-            return Ok(response);
+                return NotFound(response.Message);
+            return Ok(response.Message);
 
 
         }

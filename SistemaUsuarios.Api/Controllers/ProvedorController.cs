@@ -17,7 +17,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         // Obtener Provedores
         [HttpGet("obtenerTodosLosProvedores")]
-        public async Task<ActionResult> ObtenerProvedores()
+        public async Task<ActionResult<Response<ObtenerProvedorDTO>>> ObtenerProvedores()
         {
             var response = await _provedor.ObtenerProvedores();
             if (!response.Successful)
@@ -28,7 +28,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         // Obtener Provedores por Id 
         [HttpGet("obtenerProvedorPorId{id}")]
-        public async Task<ActionResult> ObtenerProvedor(int id)
+        public async Task<ActionResult<Response<ObtenerProvedorDTO>>> ObtenerProvedor(int id)
         {
             var response = await _provedor.ObtenerProvedorId(id);
             if (!response.Successful)
@@ -41,7 +41,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         //Agregar Provedores 
         [HttpPost("agregarProvedor")]
-        public async Task<ActionResult> AgregarProvedor(AgregarProvedorDTO provedor)
+        public async Task<ActionResult<Response<AgregarProvedorDTO>>> AgregarProvedor(AgregarProvedorDTO provedor)
         {
             var response = await _provedor.AgregarProvedor(provedor);
             if (!response.Successful)
@@ -52,7 +52,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         // Actualizar Provedores 
         [HttpPut("actualizarProvedor{id}")]
-        public async Task<ActionResult> ActualizarProvedor(int id, AgregarProvedorDTO dto)
+        public async Task<ActionResult<Response<AgregarProvedorDTO>>> ActualizarProvedor(int id, AgregarProvedorDTO dto)
         {
             var response = await _provedor.ActualizarProvedor(id, dto);
             if (!response.Successful)
@@ -64,13 +64,13 @@ namespace SistemaUsuarios.Api.Controllers
 
         // Eliminar Provedores 
         [HttpDelete("eliminarProvedor{id}")]
-        public async Task<ActionResult> EliminarProvedor(int id)
+        public async Task<ActionResult<Response<string>>> EliminarProvedor(int id)
         {
             var response = await _provedor.EliminarProvedor(id);
             if (!response.Successful)
                 return NotFound(response);
 
-            return Ok(response.SingleData);
+            return Ok(response.Message);
 
 
      

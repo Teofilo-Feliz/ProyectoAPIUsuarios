@@ -151,9 +151,9 @@ namespace SistemaUsuarios.Api.Servicios
             return response;
         }
 
-        public async Task<Response<EliminarProductosDTO>> EliminarProducto(int Id)
+        public async Task<Response<string>> EliminarProducto(int Id)
         {
-            var response = new Response<EliminarProductosDTO>();
+            var response = new Response<string>();
 
             try
             {

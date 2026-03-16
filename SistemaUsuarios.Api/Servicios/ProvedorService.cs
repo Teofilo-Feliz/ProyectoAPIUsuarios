@@ -137,9 +137,9 @@ namespace SistemaUsuarios.Api.Servicios
             return response;
         }
 
-        public async Task<Response<EliminarProvedorDTO>> EliminarProvedor(int id)
+        public async Task<Response<string>> EliminarProvedor(int id)
         {
-            var response = new Response<EliminarProvedorDTO>();
+            var response = new Response<string>();
             try
             {
                 var provedorExistente = await _context.provedores.FindAsync(id);

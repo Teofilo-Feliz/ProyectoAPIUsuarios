@@ -2,7 +2,7 @@
 {
     public class AgregarProvedorDTO
     {
-        public string Nombre { get; set; } = null!;
-        public string Contacto { get; set; } = null!;
+        public string Nombre { get; set; } = string.Empty;
+        public string Contacto { get; set; } = string.Empty;
     }
 }

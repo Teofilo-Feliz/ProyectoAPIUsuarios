@@ -39,7 +39,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         // POST api/categorias
         [HttpPost("agregarCategoria")]
-        public async Task<ActionResult<Response<string>>> AgregarCategoria(AgregarCategoriaDTO categoria)
+        public async Task<ActionResult<Response<AgregarCategoriaDTO>>> AgregarCategoria(AgregarCategoriaDTO categoria)
         {
             var response = await _categoriaService.AgregarCategoria(categoria);
             if (!response.Successful)
@@ -50,7 +50,7 @@ namespace SistemaUsuarios.Api.Controllers
 
         // PUT api/categorias/Id
         [HttpPut("actualizarCategoria{id}")]
-        public async Task<ActionResult<Response<string>>> ActualizarCategoria(int id, AgregarCategoriaDTO dto)
+        public async Task<ActionResult<Response<AgregarCategoriaDTO>>> ActualizarCategoria(int id, AgregarCategoriaDTO dto)
         {
             var response = await _categoriaService.ActualizarCategoria(id, dto);
             if (!response.Successful)

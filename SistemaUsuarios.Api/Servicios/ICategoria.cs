@@ -9,7 +9,7 @@ namespace SistemaUsuarios.Api.Servicios
         Task<Response<ObtenerCategoriasDTO>> ObtenerCategoriaId(int Id);
         Task<Response<AgregarCategoriaDTO>> AgregarCategoria(AgregarCategoriaDTO categoria);
         Task<Response<AgregarCategoriaDTO>> ActualizarCategoria(int Id, AgregarCategoriaDTO dto);
-        Task<Response<EliminarCategoriaDTO>> EliminarCategoria(int Id);
+        Task<Response<string>> EliminarCategoria(int Id);
 
 
     }

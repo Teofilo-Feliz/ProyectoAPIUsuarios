@@ -66,14 +66,14 @@ namespace SistemaUsuarios.Api.Controllers
 
         // Eliminar producto
         [HttpDelete("eliminarProducto")]
-        public async Task<ActionResult<Response<EliminarProductosDTO>>> EliminarProducto(int id)
+        public async Task<ActionResult<Response<string>>> EliminarProducto(int id)
         {
             var response = await _producto.EliminarProducto(id);
 
             if (!response.Successful)
                 return NotFound(response);
 
-            return Ok(response);
+            return Ok(response.Message);
         }
 
         // Estadisticas Producto

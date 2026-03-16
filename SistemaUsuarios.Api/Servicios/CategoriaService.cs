@@ -154,9 +154,9 @@ namespace SistemaUsuarios.Api.Servicios
 
         }
 
-        public async Task<Response<EliminarCategoriaDTO>> EliminarCategoria(int Id)
+        public async Task<Response<string>> EliminarCategoria(int Id)
         {
-            var response = new Response<EliminarCategoriaDTO>();
+            var response = new Response<string>();
             try
             {
                 var categoriaExistente = await _context.categorias.FindAsync(Id);
