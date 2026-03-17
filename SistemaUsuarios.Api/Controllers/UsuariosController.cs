@@ -13,12 +13,13 @@ namespace SistemaUsuarios.Api.Controllers
     {
         private readonly IUsuario _usuario;
         private readonly JwtService _jwtService;
+        private readonly IUsuariosLog _logServices;
 
-        public UsuariosController(IUsuario usuario, JwtService jwtService)
+        public UsuariosController(IUsuario usuario, JwtService jwtService, IUsuariosLog logServices)
         {
             _usuario = usuario;
             _jwtService = jwtService;
-
+            _logServices = logServices;
         }
         // GET api/usuarios
         [HttpGet("obtenerTodosLosUsuarios")]
@@ -113,6 +114,22 @@ namespace SistemaUsuarios.Api.Controllers
             response.SingleData!.Token = newToken;
 
             return Ok(response);
+        }
+        // Obtener usuarios desde el long
+
+        [HttpGet("obtenerLogsUsuarios")]
+        public async Task<ActionResult> ObtenerLogs()
+        {
+            var response = await _logServices.ObtenerUsuariosLog();
+
+            if (!response.Successful)
+                return BadRequest(response.Message);
+
+            return Ok(new
+            {
+                mensaje = response.Message,
+                data = response.DataList
+            });
         }
     }
 }

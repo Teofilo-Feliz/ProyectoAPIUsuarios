@@ -11,10 +11,12 @@ namespace SistemaUsuarios.Api.Servicios
     {
         private readonly SistemaUsuariosDbContex _context;
         private readonly TokenValidator _tokenValidator;
-        public UsuarioServices(SistemaUsuariosDbContex context, TokenValidator tokenValidator)
+        private readonly IUsuariosLog _logServices;
+        public UsuarioServices(SistemaUsuariosDbContex context, TokenValidator tokenValidator, IUsuariosLog logServices)
         {
             _context = context;
             _tokenValidator = tokenValidator;
+            _logServices = logServices;
         }
 
         public async Task<Response<UsuarioDTO>> ObtenerUsuario()
@@ -123,10 +125,24 @@ namespace SistemaUsuarios.Api.Servicios
 
                 _context.usuarios.Add(usuarios);
                 await _context.SaveChangesAsync();
+                await _logServices.GuardarUsuariosLog(new ObtenerUsuariosLongDTO
+                {
+                    Id = usuarios.Id,
+                    Nombre = usuarios.Nombre,
+                    Correo = usuarios.Correo,
+                    FechaNacimiento = usuarios.FechaNacimiento,
+                    Username = usuarios.Username,
+                });
 
                 response.Successful = true;
                 response.Message = "Usuario agregado exitosamente.";
-                response.SingleData = dto;
+                response.SingleData = new AgregarUsuariosDTO
+                {
+                    Nombre = usuarios.Nombre,
+                    Correo = usuarios.Correo,
+                    FechaNacimiento = usuarios.FechaNacimiento,
+                    Username = usuarios.Username
+                };
             }
             catch (Exception ex)
             {

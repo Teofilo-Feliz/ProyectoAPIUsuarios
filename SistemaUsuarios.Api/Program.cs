@@ -19,6 +19,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUsuario, UsuarioServices>();
+builder.Services.AddScoped<IUsuariosLog, UsuariosLogServices>();
 builder.Services.AddScoped<ICategoria, CategoriaService>();
 builder.Services.AddScoped<IProvedor, ProvedorService>();
 builder.Services.AddScoped<IProducto, ProductoService>();
