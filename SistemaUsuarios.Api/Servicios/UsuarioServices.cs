@@ -238,9 +238,9 @@ namespace SistemaUsuarios.Api.Servicios
             return response;
         }
 
-        public async Task<Response<Usuario>> LogueoDeUsuario(string username, string password)
+        public async Task<Response<LogueoUsuarioDTO>> LogueoDeUsuario(string username, string password)
         {
-            var response = new Response<Usuario>();
+            var response = new Response<LogueoUsuarioDTO>();
 
             try
             {
@@ -257,7 +257,12 @@ namespace SistemaUsuarios.Api.Servicios
                 }
 
                 response.Successful = true;
-                response.SingleData = usuario;
+                response.SingleData = new LogueoUsuarioDTO
+                {
+                    Id = usuario.Id,
+                    Nombre = usuario.Nombre,
+                    Token = usuario.Token!,
+                };
                 response.Message = "Usuario autenticado exitosamente.";
             }
             catch (Exception)

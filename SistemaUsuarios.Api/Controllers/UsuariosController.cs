@@ -87,17 +87,22 @@ namespace SistemaUsuarios.Api.Controllers
 
         // Loguin para el usuario 
         [HttpPost("login")]
-        public async Task<ActionResult<Response<Usuario>>> LogueoDeUsuario([FromBody] LoginDTO login)
+        public async Task<ActionResult<Response<LogueoUsuarioDTO>>> LogueoDeUsuario([FromBody] LoginDTO login)
         {
             var response = await _usuario.LogueoDeUsuario(login.Username, login.Password);
 
             if (!response.Successful)
                 return Unauthorized(response);
+            var usuario = new Usuario
+            {
+                Id = response.SingleData!.Id,
+                Nombre = response.SingleData.Nombre
+            };
 
-            var token = _jwtService.GenerateToken(response.SingleData);
+            string token = _jwtService.GenerateToken(usuario);
             response.SingleData!.Token = token;
 
-            return Ok(response);
+            return Ok(response.SingleData);
         }
 
         // Actualizar Token 
@@ -108,6 +113,7 @@ namespace SistemaUsuarios.Api.Controllers
 
             if (!response.Successful)
                 return Unauthorized(response);
+
 
             var newToken = _jwtService.GenerateToken(response.SingleData!);
 

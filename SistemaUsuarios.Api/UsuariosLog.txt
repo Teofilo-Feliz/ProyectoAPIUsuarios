@@ -5,5 +5,19 @@
     "Correo": "APerez@Rehabilitacion.org.do",
     "FechaNacimiento": "2026-03-17T00:00:00",
     "Username": "Aperez"
+  },
+  {
+    "Id": 1,
+    "Nombre": "Maria Bello",
+    "Correo": "Maria@hotmail.com",
+    "FechaNacimiento": "2026-03-18T00:00:00",
+    "Username": "mbello"
+  },
+  {
+    "Id": 2,
+    "Nombre": "Maria ",
+    "Correo": "Maria@",
+    "FechaNacimiento": "2026-03-18T00:00:00",
+    "Username": "mfeliz"
   }
 ]

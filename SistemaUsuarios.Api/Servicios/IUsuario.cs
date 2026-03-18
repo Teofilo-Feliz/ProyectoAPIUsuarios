@@ -11,7 +11,7 @@ namespace SistemaUsuarios.Api.Servicios
         Task<Response<AgregarUsuariosDTO>> AgregarUsuario(AgregarUsuariosDTO usuario);
         Task<Response<ActualizarUsuarioDTO>> ActualizarUsuario(int Id, ActualizarUsuarioDTO dto);
         Task<Response<string>> EliminarUsuario(int Id);
-        Task<Response<Usuario>> LogueoDeUsuario(string username, string password);
+        Task<Response<LogueoUsuarioDTO>> LogueoDeUsuario(string username, string password);
         Task<Response<Usuario>> RefrescarToken(string token);
 
 

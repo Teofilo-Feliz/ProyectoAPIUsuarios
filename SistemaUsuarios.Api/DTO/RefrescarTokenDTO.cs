@@ -1,6 +1,6 @@
 ﻿namespace SistemaUsuarios.Api.DTO
 {
-    public class LoguerResponse
+    public class RefrescarTokenDTO
     {
         public string Token { get; set; }
     }
